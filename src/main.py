@@ -23,6 +23,7 @@ def main():
         extra_http_headers={
             "accept-language": "en-US,en;q=0.9",
         },
+        
         viewport={"width": 1280, "height": 720}
     )
         page = context.new_page()

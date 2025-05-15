@@ -1,10 +1,9 @@
 from playwright.sync_api import Page, sync_playwright
 from logger.logger import Logger
 
-logger = Logger()
 from urllib.parse import quote
 from playwright.sync_api import TimeoutError, Error
-
+logger = Logger()
 
 class LinkedInCrawler:
     def __init__(self, page: Page):
